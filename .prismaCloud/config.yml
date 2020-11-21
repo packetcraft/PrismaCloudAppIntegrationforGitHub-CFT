@@ -1,0 +1,18 @@
+
+# Specify the template type. Valid values are as follows.
+# REFER LINK - https://docs.paloaltonetworks.com/prisma/prisma-cloud/prisma-cloud-admin/prisma-cloud-devops-security/set-up-your-prisma-cloud-configuration-file-for-iac-scan.html
+# - For Terraform: TF
+# - For AWS CloudFormation: CFT
+# - For Kubernetes: K8S
+
+
+# Specify the template type. Valid values are as follows.
+# For Terraform: TF
+# For AWS CloudFormation: CFT
+# For Kubernetes: K8S
+
+template_type: CFT
+
+# If template_type value is CFT, set cft_parameters (optional)
+# variable_values is an array of name/value pairs, which identifies the
+# template variables
