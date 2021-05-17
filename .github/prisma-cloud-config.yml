@@ -28,3 +28,4 @@ github_asset_name: "Github Asset Dev"
 tags:
 - phase:testing
 - env:QA
+- operator:Rakesh
