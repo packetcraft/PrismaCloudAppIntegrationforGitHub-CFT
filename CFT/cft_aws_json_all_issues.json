@@ -271,6 +271,13 @@
         "PubliclyAccessible": true,
         "Encrypted": false
       }
+    },
+    "json:AWS::S3::Bucket": {
+      "Properties": {
+        "PublicAccessBlockConfiguration": {
+          "RestrictPublicBuckets": true
+        }
+      }
     }
   },
   "Outputs": {
